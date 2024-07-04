@@ -1,5 +1,7 @@
 # `@marcalexiei/curriculum-lol`
 
+[![CI](https://github.com/marcalexiei/curriculum-lol/actions/workflows/CI.yml/badge.svg)](https://github.com/marcalexiei/curriculum-lol/actions/workflows/CI.yml)
+
 Making simple HTML site to try out the following tools:
 
 - [pnpm](https://pnpm.io/cli/run)
@@ -10,7 +12,7 @@ Making simple HTML site to try out the following tools:
 ## TODO
 
 - [x] Setup formatter
-  - [ ] Add value to code-check matrix
+  - [x] Add value to code-check matrix
 - [ ] Setup linter
   - [ ] Add value to code-check matrix
 - [ ] Setup build with rolldown
