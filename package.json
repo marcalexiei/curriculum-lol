@@ -1,0 +1,23 @@
+{
+  "name": "@marcalexiei/curriculum-lol",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "biome format .",
+    "format:fix": "biome format . --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marco Pasqualetti <marco.pasqualetti@live.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@9.4.0",
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "typescript": "5.5.3"
+  }
+}
