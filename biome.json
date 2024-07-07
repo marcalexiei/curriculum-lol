@@ -9,12 +9,17 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "all": true
     }
   },
   "javascript": {
     "formatter": {
       "quoteStyle": "single"
     }
+  },
+  "vcs": {
+    "clientKind": "git",
+    "useIgnoreFile": true,
+    "enabled": true
   }
 }

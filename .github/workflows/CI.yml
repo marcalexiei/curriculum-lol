@@ -19,7 +19,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        script: [format, lint]
+        script: [format, lint, build]
 
     steps:
       - name: Checkout
