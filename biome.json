@@ -9,7 +9,18 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "all": true
+      "all": true,
+      "style": {
+        "useShorthandArrayType": {
+          "level": "off"
+        },
+        "useConsistentArrayType": {
+          "level": "error",
+          "options": {
+            "syntax": "generic"
+          }
+        }
+      }
     }
   },
   "javascript": {
