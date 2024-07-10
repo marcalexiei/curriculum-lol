@@ -14,8 +14,10 @@
   "packageManager": "pnpm@9.5.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "dev:typecheck": "npm run typecheck -- --watch",
+    "build": "vite build",
     "build:preview": "npm run build && vite preview",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
     "format": "biome format .",
     "format:fix": "biome format . --write",
     "lint": "biome lint .",
